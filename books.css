@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p, ul{
+    margin: 0;
+    padding: 0;
+}
+.book_heading{
+    background-color: #00cce1;;
+    padding: 25px 0;
+}
+.book{
+
+    display: flex;
+    
+    justify-content: space-between;
+}
+.book ul{
+    
+    display: flex;
+    
+    justify-content: start;
+}
+.book ul li{
+    
+    list-style: none;
+}
+.book ul li a{
+    
+    text-decoration: none;
+    
+    color: #ffff;
+    
+    font-size: 16px;
+    
+    margin-right: 26px;
+    
+    font-weight: 500;
+    
+    text-transform: uppercase;
+}
+.btn_sign{
+    
+    background: transparent;
+    
+    border: none;
+    
+    color: #ffff;
+    
+    font-size: 14px;
+    
+    text-transform: uppercase;
+    
+    border: 1px solid #ffff;
+    
+    padding: 8px 12px;
+    
+    font-weight: 500;
+    
+    border-radius: 0;
+}
+.content{
+
+}
+.top{
+
+text-align: center;
+
+padding: 20px 0;
+}
+.top h1{
+    
+text-transform: capitalize;
+    
+font-size: 36px;
+    
+color: #2299c5;
+}
+.top p{
+    
+font-size: 16px;
+    
+margin-top: 10px;
+    
+color: #a4a8bc;
+}
+.bottom{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.bottom img{
+    padding: 20px;
+    margin: 15px;
+    box-shadow: 4px 6px 3px grey;
+}
